@@ -1,10 +1,7 @@
 {
   "name": "kantodex",
   "version": "0.0.2",
-  "main": "app.js",
   "scripts": {
-    "test": "echo \"Probando 1, 2, 3... Hola mundo!\" && exit 1",
-    "start-dev": "npx live-server --verbose",
     "sassc": "node sass-compiler.js"
   },
   "type": "module",
@@ -20,8 +17,6 @@
   "license": "MIT",
   "description": "Aplicación web minima que recopila información sobre todo los pokémon en la región de kanto.",
   "devDependencies": {
-    "@types/live-server": "^1.2.3",
-    "live-server": "^1.2.2",
     "sass": "^1.86.0"
   }
 }
