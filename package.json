@@ -13,8 +13,5 @@
     "url": "https://github.com/amadoch/KantoDex/issues"
   },
   "license": "MIT",
-  "description": "Aplicación web minima que recopila información sobre todo los pokémon en la región de kanto.",
-  "devDependencies": {
-    "sass": "^1.86.0"
-  }
+  "description": "Aplicación web minima que recopila información sobre todo los pokémon en la región de kanto."
 }
