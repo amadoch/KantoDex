@@ -1,1 +1,2 @@
-import './components/cardpokemon.js';
+//Esto de aqui es una regleta con pasos extras.
+

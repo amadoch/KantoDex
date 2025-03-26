@@ -1,9 +1,7 @@
 {
   "name": "kantodex",
   "version": "0.0.2",
-  "scripts": {
-    "sassc": "node sass-compiler.js"
-  },
+  "scripts": {},
   "type": "module",
   "keywords": [],
   "author": "amadoch",

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KantoDex</title>
+    <link rel="stylesheet" type="text/css" href="./src/styles/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./src/styles/global.css" />
+</head>
+<body>
+    <header class="banner-container">
+        <h1 class="banner-title">KantoDex</h1>
+        <p class="banner-subtitle">Enciclopedia de los pokémon de kanto.</p>
+    </header>
+    <main>
+    </main>
+    <aside class="form-container">
+        <header class="banner-container">
+            <h2 class="banner-title">Buscar Pokémon</h2>
+            <p class="banner-subtitle">Enciclopedia de los pokémon de kanto.</p>
+        </header>
+        <form class="form-body" id="buscador--pokemon" method="get" action="./src/js/searchpokemon.js">
+            <fieldset class="subform-body">
+                <legend class="subform-title">Nombre o Identificador</legend>
+                <input type="text" maxlength=""/>
+                <input type="number" min="1" max="151" maxlength="3" placeholder="1 a 151" autocomplete="off"/>
+            </fieldset>
+            <fieldset class="subform-body">
+                <legend class="subform-title">Filtros</legend>
+                <label>Tipo</label>
+                <label>Habilidad</label>
+            </fieldset>
+            <div class="form-box">
+                <button class="form-btn" type="reset" form="buscador--pokemon">Limpiar</button>
+                <button class="form-btn" type="submit" form="buscador--pokemon" disabled>Comenzar</button>
+            </div>
+        </form>
+    </aside>
+    <footer class="copyright-container">
+        <header class="banner-container">
+            <h2 class="banner-title">Contacto</h2>
+            <p class="banner-subtitle">Creado por fines educativos y sin animos de lucro. Amadoch 2025</p>
+        </header>
+        <section class="copyright-body">
+            <h3>Preguntas comunes</h3>
+            <details class="accordion">
+                <summary class="question-text">¿En que versión del juego te basas?</summary>
+                <p class="answer-text">En pokemon verde hoja y rojo fuego</p>
+            </details>
+            <details class="accordion">
+                <summary class="question-text">¿Piensas expandir a otras regiones?</summary>
+                <p class="answer-text">Cuando la app en sí mismo se asemeje a una pokedex</p>
+            </details>
+        </section>
+        <address>
+                Me puedes contactar a través de <a href="#DeberiaLlevarteAGitHub">mi página en github</a>
+        </address>
+    </footer>
+    <script type="module" src="./src/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+/* 
+   amadoch's Custom CSS Reset
+   License: none (public domain)
+   Based on Andy Bell, Josh Corneu, resets themes.
+*/
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Set core body defaults and improve text rendering*/
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1, h2, h3, h4,
+button, input, 
+label, details {
+  line-height: 1.1;
+}
+
+/*If overflow then break*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+  vertical-align: baseline;
+}
+
+/* Balance text wrapping on headings */
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+/*Interactive thing goes here*/
+/* Remove list styles on ul, ol elements*/
+ul, ol{
+    list-style: none;
+}
+
+/* Media ready to use */
+img,
+picture,
+video {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input, button,
+textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
+}
+
+/* Create a root stacking isolate, usefull when render some pop-up elements*/
+#root, #__next {
+  isolation: isolate;
+}
